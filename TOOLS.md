@@ -2,16 +2,21 @@
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
-## Model Selection Rule
+## Model Selection Rule (Routing)
 
-- **Default:** Always use Sonnet
-- **Switch to `claude-opus-4.6`** ONLY for:
+- **Default:** Always use `haiku` (cheapest/fastest)
+- **Switch to `sonnet`** ONLY for:
   - Architecture decisions
   - Production code review
   - Security analysis
   - Complex debugging / reasoning
   - Strategic multi-project decisions
-- **When in doubt:** Try Haiku first
+- **Switch to `opus`** ONLY for:
+  - Extremely complex multi-step reasoning
+  - Large-scale refactoring across many files
+  - Nuanced design tradeoffs requiring deep analysis
+  - Tasks where Sonnet's output was insufficient
+- **Escalation order:** Haiku → Sonnet → Opus (last resort)
 
 ---
 
