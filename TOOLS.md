@@ -2,6 +2,19 @@
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
+## Model Selection Rule
+
+- **Default:** Always use Sonnet
+- **Switch to `claude-opus-4.6`** ONLY for:
+  - Architecture decisions
+  - Production code review
+  - Security analysis
+  - Complex debugging / reasoning
+  - Strategic multi-project decisions
+- **When in doubt:** Try Haiku first
+
+---
+
 ## What Goes Here
 
 Things like:
