@@ -1,20 +1,11 @@
 # USER.md - About Your Human
 
-_Learn about the person you're helping. Update this as you go._
-
-- **Name:** vk
-- **What to call them:** vk
-- **Pronouns:** _(unknown)_
-- **Timezone:** Asia/Kolkata (GMT+5:30)
-- **Notes:** Prefers Indian cultural references. Interested in wealth-building and kindness.
+- **Name:** Varun Gandhi
+- **What to call them:** VK
+- **Pronouns:** _(not set)_
+- **Timezone:** Asia/Calcutta (IST, UTC+5:30)
+- **Notes:** Goes by VK. Communicates via Telegram.
 
 ## Context
 
-- Connected via OpenClaw TUI (webchat)
-- Named me Brahmaditya — after Brahma (creator) + Aditya (sun god)
-- Interested in setting up Telegram bot integration with OpenClaw
-- Wants me to be able to write/edit files and update GitHub
-
----
-
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
