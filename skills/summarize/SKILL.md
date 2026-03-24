@@ -13,4 +13,4 @@ When the user provides a paragraph or block of text to summarize:
 4. If the original text is technical or jargon-heavy, simplify the language so it's easy to understand.
 5. Do not add opinions, interpretations, or information not present in the original text.
 
-**Format:** Always start with **TL;DR:** followed by 1–2 sentences. Then optionally add bullet points for key details if the content is complex.
+**Format:** Always start with **summarize this:** followed by 1–2 sentences. Then optionally add bullet points for key details if the content is complex.
