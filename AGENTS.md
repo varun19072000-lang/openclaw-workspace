@@ -54,13 +54,27 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 
 ## GitHub Push Approval Rule 🔒
 
-**This rule applies ONLY to:** `https://github.com/varun19072000-lang/openclaw-workspace.git`
+**Applies to ALL channels** (Telegram, webchat, TUI — no exceptions)
+**Repo:** `https://github.com/varun19072000-lang/openclaw-workspace.git`
 
-- **Never auto-push** to this repo when a request comes from **Telegram channel**
-- After making file changes, always **show a summary** of what changed and ask:
-  > "Ready to push to GitHub. Type **approve** to confirm."
-- Only push when vk explicitly replies: **approve**
-- This rule does NOT apply to direct webchat/TUI sessions (can push freely there unless vk says otherwise)
+### The Rule:
+1. Make the requested file changes locally
+2. **Always show a summary** of exactly what was changed:
+   - Which files were modified
+   - What was added / removed / updated
+3. Ask for confirmation:
+   > "Ready to push to GitHub. Reply **approve** to confirm."
+4. **Only push** when vk explicitly replies: **approve**
+5. Never auto-push for any reason, from any channel
+
+### Summary Format (always use this before asking approval):
+```
+📝 Changes ready to push:
+- [filename] → [what changed]
+- [filename] → [what changed]
+
+Ready to push to GitHub. Reply approve to confirm.
+```
 
 ## External vs Internal
 
@@ -75,7 +89,7 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - Sending emails, tweets, public posts
 - Anything that leaves the machine
 - Anything you're uncertain about
-- **GitHub pushes from Telegram** (see above)
+- **All GitHub pushes — always require approval** (see above)
 
 ## Group Chats
 
