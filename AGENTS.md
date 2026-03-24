@@ -52,6 +52,16 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
 
+## GitHub Push Approval Rule 🔒
+
+**This rule applies ONLY to:** `https://github.com/varun19072000-lang/openclaw-workspace.git`
+
+- **Never auto-push** to this repo when a request comes from **Telegram channel**
+- After making file changes, always **show a summary** of what changed and ask:
+  > "Ready to push to GitHub. Type **approve** to confirm."
+- Only push when vk explicitly replies: **approve**
+- This rule does NOT apply to direct webchat/TUI sessions (can push freely there unless vk says otherwise)
+
 ## External vs Internal
 
 **Safe to do freely:**
@@ -65,6 +75,7 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - Sending emails, tweets, public posts
 - Anything that leaves the machine
 - Anything you're uncertain about
+- **GitHub pushes from Telegram** (see above)
 
 ## Group Chats
 
@@ -175,7 +186,7 @@ You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it
 **When to reach out:**
 
 - Important email arrived
-- Calendar event coming up (&lt;2h)
+- Calendar event coming up (<2h)
 - Something interesting you found
 - It's been >8h since you said anything
 
@@ -184,7 +195,7 @@ You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it
 - Late night (23:00-08:00) unless urgent
 - Human is clearly busy
 - Nothing new since last check
-- You just checked &lt;30 minutes ago
+- You just checked <30 minutes ago
 
 **Proactive work you can do without asking:**
 
