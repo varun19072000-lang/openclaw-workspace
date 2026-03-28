@@ -37,4 +37,17 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+## Available Workspace Skills
+
+These skills are in `skills/` — read their SKILL.md before use:
+
+- **news-digest** (`skills/news-digest/SKILL.md`) — When user asks for "news", "top news", "news digest", "daily briefing", or "what's happening today": run `python3 ~/.openclaw/workspace/skills/news-digest/scripts/fetch_news.py`. Combines 4 news sources, deduplicates, and formats output. For specific category: add category name as argument (e.g., `fetch_news.py sports`).
+- **gog** (`skills/gog/SKILL.md`) — Gmail, Calendar, Drive, Contacts, Sheets, Docs via `gog` CLI.
+- **screenshot** (`skills/screenshot/SKILL.md`) — Capture desktop screenshots.
+- **summarize** (`skills/summarize/SKILL.md`) — Summarize text.
+
+**IMPORTANT:** When a user's request matches a skill above, ALWAYS read the skill's SKILL.md first and follow its instructions exactly.
+
+---
+
 Add whatever helps you do your job. This is your cheat sheet.
